@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 // fetch("https://swapi.dev/api/people/1/") //sends a request to this url and returns a promise
 // 	.then((res) => {
 // 		//if promise is resolved, we call res.json();
